@@ -16,7 +16,7 @@ export default class BallList extends Component {
         const timer = setInterval(()=>{
             var info = {
                 left:getRandom(0,Width),
-                right:getRandom(0,Height),
+                top:getRandom(0,Height),
                 xSpeed:getRandom(50,500),
                 ySpeed:getRandom(50,500),
                 bg:`rgb(${getRandom(0,255)},${getRandom(0,255)},${getRandom(0,255)})`
