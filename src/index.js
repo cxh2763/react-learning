@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-import BallList from "./components/BallList"
+import PagerTest from "./components/PagerTest";
 
-ReactDom.render(<BallList/>,document.getElementById("root"))
+ReactDom.render(<PagerTest></PagerTest>, document.getElementById('root'));
