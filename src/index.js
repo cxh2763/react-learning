@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
-import PagerTest from "./components/PagerTest";
+import Test from "./components/Test"
 
-ReactDom.render(<PagerTest></PagerTest>, document.getElementById('root'));
+ReactDom.render(<div>
+  <Test></Test>
+</div>, document.getElementById('root'));
