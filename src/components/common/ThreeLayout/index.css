@@ -1,0 +1,19 @@
+.three-layout {
+  display: flex;
+  height: 300px;
+  border: 2px solid #000;
+}
+
+.three-layout .main {
+  order: 2;
+  flex: 1 1 auto;
+  /*可以增长，可以伸缩*/
+}
+
+.three-layout .aside-left {
+  order: 1;
+}
+
+.three-layout .aside-right {
+  order: 3;
+}
